@@ -1,0 +1,29 @@
+{
+    "name": "talan/basic-extension",
+    "type": "typo3-cms-extension",
+    "description": "A basic TYPO3 extension with backend module, plugin, and dashboard widget",
+    "authors": [
+        {
+            "name": "Cyril Wolfangel",
+            "email": "cyril.wolfangel@example.com"
+        }
+    ],
+    "license": ["GPL-2.0-or-later"],
+    "require": {
+        "typo3/cms-core": "^12.4 || ^13.0",
+        "typo3/cms-backend": "^12.4 || ^13.0",
+        "typo3/cms-extbase": "^12.4 || ^13.0",
+        "typo3/cms-fluid": "^12.4 || ^13.0",
+        "typo3/cms-dashboard": "^12.4 || ^13.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Talan\\BasicExtension\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "talan_basic_extension"
+        }
+    }
+}
