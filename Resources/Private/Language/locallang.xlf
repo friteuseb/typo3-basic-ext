@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2023-04-21UTC15:41:180">
+        <header>
+            <authorName>Cyril Wolfangel</authorName>
+            <authorEmail>cyril.wolfangel@example.com</authorEmail>
+        </header>
+        <body>
+            <trans-unit id="plugin.title">
+                <source>Basic Plugin</source>
+            </trans-unit>
+            <trans-unit id="plugin.description">
+                <source>A basic plugin for TYPO3</source>
+            </trans-unit>
+            <trans-unit id="backend.module.title">
+                <source>Basic Module</source>
+            </trans-unit>
+            <trans-unit id="backend.module.description">
+                <source>A basic backend module for TYPO3</source>
+            </trans-unit>
+            <trans-unit id="dashboard.widget.title">
+                <source>Basic Widget</source>
+            </trans-unit>
+            <trans-unit id="dashboard.widget.description">
+                <source>A basic dashboard widget for TYPO3</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
